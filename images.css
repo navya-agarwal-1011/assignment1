@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.image-contoner{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.image-section{
+    width: 150px;
+    border-radius: 3%;
+    border: 1px solid #ccc;
+}
+.image-section img{
+    max-width: 100%;
+    height: 80%;
+}
+.image-section a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.image-section div{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
